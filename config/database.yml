@@ -75,11 +75,12 @@ test:
 #
 # You can use this database configuration with:
 #
-   production:
-     url: <%= ENV['DATABASE_URL'] %>
-
-#production:
-#  <<: *default
- # database: d925f580l3v9d1
- # username: ggqnpiymyogduo
- # password: <%= ENV['SURVEYA_DATABASE_PASSWORD'] %>
+#   production:
+#     url: <%= ENV['DATABASE_URL'] %>
+#
+production:
+  <<: *default
+  #database: d925f580l3v9d1
+  #username: ggqnpiymyogduo
+  #password: <%= ENV['SURVEYA_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
