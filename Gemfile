@@ -14,10 +14,7 @@ gem 'taps'
 # HEROKU doesn't support sqlite3.
 # Comment this gem
 #gem 'sqlite3'
-gem 'pg'
-# and uncomment the following
-# gem 'pg', '~> 0.20'
-# gem 'thin'
+gem 'pg', '~> 0.18'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'

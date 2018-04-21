@@ -50822,3 +50822,118 @@ Processing by ApiController#i18n as JSON
 Completed 200 OK in 124ms (Views: 109.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/questionnaire" for 127.0.0.1 at 2018-04-21 17:52:58 +0700
+Processing by HomesController#questionnaire as HTML
+  Rendering homes/questionnaire.html.erb within layouts/pages
+  [1m[36mUser Load (16.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mQuestion Load (33.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE ("questions"."id" BETWEEN $1 AND $2)[0m  [["id", 4], ["id", 8]]
+  [1m[36mQuestionAnswer Load (49.1ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 4]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.5ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.5ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 5]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.5ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 6]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.5ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 7]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mAnswer Load (1.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (1.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 8]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  Rendered homes/questionnaire.html.erb within layouts/pages (276.1ms)
+Started GET "/questionnaire" for 127.0.0.1 at 2018-04-21 17:52:59 +0700
+Processing by HomesController#questionnaire as HTML
+  Rendering homes/questionnaire.html.erb within layouts/pages
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mQuestion Load (1.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE ("questions"."id" BETWEEN $1 AND $2)[0m  [["id", 4], ["id", 8]]
+  [1m[36mQuestionAnswer Load (1.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 4]]
+  [1m[36mAnswer Load (0.5ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (5.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 5]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (4.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 6]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (1.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 7]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mAnswer Load (1.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mAnswer Load (1.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 8]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  Rendered homes/questionnaire.html.erb within layouts/pages (117.1ms)
+Completed 500 Internal Server Error in 22079ms (ActiveRecord: 29.5ms)
+
+
+  
+ActionView::Template::Error (Permission denied @ rb_file_s_rename - (C:/ruby_project/smartquizy/tmp/cache/assets/sprockets/v3.0/4L/4LLEqDlH7BXUspN1Wxtv6_J72Y9ECGHmk5wBZ0uM6es.cache.78478284.29908.787216, C:/ruby_project/smartquizy/tmp/cache/assets/sprockets/v3.0/4L/4LLEqDlH7BXUspN1Wxtv6_J72Y9ECGHmk5wBZ0uM6es.cache)):
+     8:    <meta name="keywords" content="app, responsive, jquery, bootstrap, dashboard, admin">
+     9:    <title>Smart Quizy : Application ถาม-ตอบ Smart</title>
+    10:    <!-- =============== VENDOR STYLES ===============-->
+    11:    <%= stylesheet_link_tag 'base' %>
+    12:    <link rel="stylesheet" media="all" href="<%= asset_path('angle/themes/theme-b.css') %>" />
+    13:    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    14: 
+  
+app/views/layouts/pages.html.erb:11:in `_app_views_layouts_pages_html_erb___307303117_70642356'
+Started GET "/questionnaire" for 127.0.0.1 at 2018-04-21 17:53:50 +0700
+Processing by HomesController#questionnaire as HTML
+  Rendering homes/questionnaire.html.erb within layouts/pages
+  [1m[36mUser Load (119.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mQuestion Load (0.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE ("questions"."id" BETWEEN $1 AND $2)[0m  [["id", 4], ["id", 8]]
+  [1m[36mQuestionAnswer Load (1.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 4]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 5]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 6]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 7]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 8]]
+  [1m[36mAnswer Load (1.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  Rendered homes/questionnaire.html.erb within layouts/pages (182.1ms)
+Completed 500 Internal Server Error in 139675ms (ActiveRecord: 230.9ms)
+
+
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+    13:    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    14: 
+    15:    <!-- =============== APP STYLES ===============-->
+    16:    <%= stylesheet_link_tag 'application', media: 'all', id: "maincss" %>
+    17: 
+    18:    <%= csrf_meta_tags %>
+    19: 
+  
+app/views/layouts/pages.html.erb:16:in `_app_views_layouts_pages_html_erb___307303117_79525260'
+Completed 200 OK in 94747ms (Views: 94578.6ms | ActiveRecord: 121.1ms)
+
+
