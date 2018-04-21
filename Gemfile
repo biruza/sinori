@@ -61,3 +61,6 @@ gem "bower-rails", "~> 0.9.2"
 
 gem 'devise', '~> 4.3'
 gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
+
+
+gem 'rails_12factor', group: :production

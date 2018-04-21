@@ -127,6 +127,11 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.4)
       loofah (~> 2.2, >= 2.2.2)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.5)
+    rails_stdout_logging (0.0.5)
     railties (5.1.0)
       actionpack (= 5.1.0)
       activesupport (= 5.1.0)
@@ -179,7 +184,7 @@ GEM
       thread_safe (~> 0.1)
     tzinfo-data (1.2018.4)
       tzinfo (>= 1.0.0)
-    uglifier (4.1.9)
+    uglifier (4.1.10)
       execjs (>= 0.3.0, < 3)
     warden (1.2.7)
       rack (>= 1.0)
@@ -209,6 +214,7 @@ DEPENDENCIES
   pg (~> 0.18)
   puma (~> 3.7)
   rails (= 5.1.0)
+  rails_12factor
   sass-rails (~> 5.0.1)
   selenium-webdriver
   taps
