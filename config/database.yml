@@ -32,4 +32,5 @@ test:
 production:
   <<: *default
   #database: db/production.sqlite3
-  database: quizy_production
+  #database: quizy_production
+  url: <%= ENV['DATABASE_URL'] %>
