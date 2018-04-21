@@ -1,0 +1,416 @@
+<div class="content-heading">
+   <h1>Dashboard for Operation</h1>
+   <small data-localize="dashboard.xx">ยินดีต้อนรับ นายช่างใหญ่ บุญมี</small>
+</div>
+<!-- START widgets box-->
+<div class="row">
+
+   <div class="col-lg-3 col-md-6 col-sm-12">
+      <!-- START date widget-->
+      <div class="panel widget">
+         <div class="row row-table">
+            <div class="col-xs-4 text-center bg-green pv-lg">
+               <!-- See formats: https://docs.angularjs.org/api/ng/filter/date-->
+               <div data-now="" data-format="MMMM" class="text-sm"></div>
+               <br/>
+               <div data-now="" data-format="D" class="h2 mt0"></div>
+            </div>
+            <div class="col-xs-8 pv-lg">
+               <div data-now="" data-format="dddd" class="text-uppercase"></div>
+               <br/>
+               <div data-now="" data-format="h:mm" class="h2 mt0"></div>
+               <div data-now="" data-format="a" class="text-muted text-sm"></div>
+            </div>
+         </div>
+      </div>
+      <!-- END date widget    -->
+   </div>
+
+   <div class="col-lg-3 col-sm-12">
+      <!-- START widget-->
+      <div class="panel widget bg-primary">
+         <div class="row row-table">
+            <div class="col-xs-4 text-center bg-primary-dark pv-lg">
+               <em class="icon-cloud-upload fa-3x"></em>
+            </div>
+            <div class="col-xs-8 pv-lg">
+               <div class="h2 mt0">12</div>
+               <div class="text-uppercase">งานทั้งหมด ในวันนี้</div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="col-lg-3 col-sm-6">
+      <!-- START widget-->
+      <div class="panel widget bg-purple">
+         <div class="row row-table">
+            <div class="col-xs-4 text-center bg-purple-dark pv-lg">
+               <em class="icon-globe fa-3x"></em>
+            </div>
+            <div class="col-xs-8 pv-lg">
+               <div class="h2 mt0">8</div>
+               <div class="text-uppercase">งานที่ทำเสร็จแล้ว ในวันนี้</div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="col-lg-3 col-sm-6 ">
+      <!-- START widget-->
+      <div class="panel widget bg-green">
+         <div class="row row-table">
+            <div class="col-xs-4 text-center bg-green-dark pv-lg">
+               <em class="icon-bubbles fa-3x"></em>
+            </div>
+            <div class="col-xs-8 pv-lg">
+               <div class="h2 mt0">4</div>
+               <div class="text-uppercase">งานที่ยังค้างอยู่ ในวันนี้</div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+</div>
+<!-- END widgets box-->
+<div class="row">
+   <!-- START dashboard main content-->
+   <div class="col-lg-9">
+      
+    <div class="row">
+        <div class="col-lg-6">
+        
+            <!-- START messages and activity-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">รายการงานที่รอทำ</div>
+                    </div>
+                    <!-- START list group-->
+                    <div class="list-group">
+                        <!-- START list group item-->
+                        <div class="list-group-item">
+                        <div class="media-box">
+                            <div class="pull-left">
+                                <span class="fa-stack">
+                                    <em class="fa fa-circle fa-stack-2x text-purple"></em>
+                                    <em class="fa fa-cloud-upload fa-stack-1x fa-inverse text-white"></em>
+                                </span>
+                            </div>
+                            <div class="media-box-body clearfix">
+                                <small class="text-muted pull-right ml">10 min</small>
+                                <div class="media-box-heading"><a href="#" class="text-success m0">Task name 4</a>
+                                </div>
+                                <p class="m0"><a href="#">Location A</a>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- END list group item-->
+                        <!-- START list group item-->
+                        <div class="list-group-item">
+                        <div class="media-box">
+                            <div class="pull-left">
+                                <span class="fa-stack">
+                                    <em class="fa fa-circle fa-stack-2x text-info"></em>
+                                    <em class="fa fa-file-text-o fa-stack-1x fa-inverse text-white"></em>
+                                </span>
+                            </div>
+                            <div class="media-box-body clearfix">
+                                <small class="text-muted pull-right ml">15 min</small>
+                                <div class="media-box-heading"><a href="#" class="text-success m0">Task name 4</a>
+                                </div>
+                                <p class="m0"><a href="#">Location B</a>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- END list group item-->
+                        <!-- START list group item-->
+                        <div class="list-group-item">
+                        <div class="media-box">
+                            <div class="pull-left">
+                                <span class="fa-stack">
+                                    <em class="fa fa-circle fa-stack-2x text-danger"></em>
+                                    <em class="fa fa-exclamation fa-stack-1x fa-inverse text-white"></em>
+                                </span>
+                            </div>
+                            <div class="media-box-body clearfix">
+                                <small class="text-muted pull-right ml">15 min</small>
+                                <div class="media-box-heading"><a href="#" class="text-success m0">Task name 4</a>
+                                </div>
+                                <p class="m0"><a href="#">Location C</a>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- END list group item-->
+                        <!-- START list group item-->
+                        <div class="list-group-item">
+                        <div class="media-box">
+                            <div class="pull-left">
+                                <span class="fa-stack">
+                                    <em class="fa fa-circle fa-stack-2x text-success"></em>
+                                    <em class="fa fa-clock-o fa-stack-1x fa-inverse text-white"></em>
+                                </span>
+                            </div>
+                            <div class="media-box-body clearfix">
+                                <small class="text-muted pull-right ml">10 min</small>
+                                <div class="media-box-heading"><a href="#" class="text-success m0">Task name 4</a>
+                                </div>
+                                <p class="m0"><a href="#">Location C</a>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- END list group item-->
+                        <!-- START list group item-->
+                        <div class="list-group-item">
+                        <div class="media-box">
+                            <div class="pull-left">
+                                <span class="fa-stack">
+                                    <em class="fa fa-circle fa-stack-2x text-success"></em>
+                                    <em class="fa fa-clock-o fa-stack-1x fa-inverse text-white"></em>
+                                </span>
+                            </div>
+                            <div class="media-box-body clearfix">
+                                <small class="text-muted pull-right ml">10 min</small>
+                                <div class="media-box-heading"><a href="#" class="text-success m0">Task name 5</a>
+                                </div>
+                                <p class="m0"><a href="#">Location C</a>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- END list group item-->
+                    </div>
+                    <!-- END list group-->
+                    <!-- START panel footer-->
+                    <div class="panel-footer clearfix">
+                        <a href="#" class="pull-left">
+                        <small>Load more</small>
+                        </a>
+                    </div>
+                    <!-- END panel-footer-->
+                </div>
+                <!-- END messages and activity-->
+        
+        </div>
+        <div class="col-lg-6">
+        
+            <!-- START messages and activity-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">รายการงานที่ทำเสร็จแล้ว</div>
+                    </div>
+                    <!-- START list group-->
+                    <div class="list-group">
+                        <!-- START list group item-->
+                        <div class="list-group-item">
+                        <div class="media-box">
+                            <div class="pull-left">
+                                <span class="fa-stack">
+                                    <em class="fa fa-circle fa-stack-2x text-purple"></em>
+                                    <em class="fa fa-cloud-upload fa-stack-1x fa-inverse text-white"></em>
+                                </span>
+                            </div>
+                            <div class="media-box-body clearfix">
+                                <small class="text-muted pull-right ml">10 min</small>
+                                <div class="media-box-heading"><a href="#" class="text-success m0">Task name 4</a>
+                                </div>
+                                <p class="m0"><a href="#">Location A</a>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- END list group item-->
+                        <!-- START list group item-->
+                        <div class="list-group-item">
+                        <div class="media-box">
+                            <div class="pull-left">
+                                <span class="fa-stack">
+                                    <em class="fa fa-circle fa-stack-2x text-info"></em>
+                                    <em class="fa fa-file-text-o fa-stack-1x fa-inverse text-white"></em>
+                                </span>
+                            </div>
+                            <div class="media-box-body clearfix">
+                                <small class="text-muted pull-right ml">15 min</small>
+                                <div class="media-box-heading"><a href="#" class="text-success m0">Task name 4</a>
+                                </div>
+                                <p class="m0"><a href="#">Location B</a>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- END list group item-->
+                        <!-- START list group item-->
+                        <div class="list-group-item">
+                        <div class="media-box">
+                            <div class="pull-left">
+                                <span class="fa-stack">
+                                    <em class="fa fa-circle fa-stack-2x text-danger"></em>
+                                    <em class="fa fa-exclamation fa-stack-1x fa-inverse text-white"></em>
+                                </span>
+                            </div>
+                            <div class="media-box-body clearfix">
+                                <small class="text-muted pull-right ml">15 min</small>
+                                <div class="media-box-heading"><a href="#" class="text-success m0">Task name 4</a>
+                                </div>
+                                <p class="m0"><a href="#">Location C</a>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- END list group item-->
+                        <!-- START list group item-->
+                        <div class="list-group-item">
+                        <div class="media-box">
+                            <div class="pull-left">
+                                <span class="fa-stack">
+                                    <em class="fa fa-circle fa-stack-2x text-success"></em>
+                                    <em class="fa fa-clock-o fa-stack-1x fa-inverse text-white"></em>
+                                </span>
+                            </div>
+                            <div class="media-box-body clearfix">
+                                <small class="text-muted pull-right ml">10 min</small>
+                                <div class="media-box-heading"><a href="#" class="text-success m0">Task name 4</a>
+                                </div>
+                                <p class="m0"><a href="#">Location C</a>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- END list group item-->
+                        <!-- START list group item-->
+                        <div class="list-group-item">
+                        <div class="media-box">
+                            <div class="pull-left">
+                                <span class="fa-stack">
+                                    <em class="fa fa-circle fa-stack-2x text-success"></em>
+                                    <em class="fa fa-clock-o fa-stack-1x fa-inverse text-white"></em>
+                                </span>
+                            </div>
+                            <div class="media-box-body clearfix">
+                                <small class="text-muted pull-right ml">10 min</small>
+                                <div class="media-box-heading"><a href="#" class="text-success m0">Task name 5</a>
+                                </div>
+                                <p class="m0"><a href="#">Location C</a>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- END list group item-->
+                    </div>
+                    <!-- END list group-->
+                    <!-- START panel footer-->
+                    <div class="panel-footer clearfix">
+                        <a href="#" class="pull-left">
+                        <small>Load more</small>
+                        </a>
+                    </div>
+                    <!-- END panel-footer-->
+                </div>
+                <!-- END messages and activity-->
+        
+        </div>
+    </div>
+
+      
+      <div class="row">
+         <div class="col-lg-12">
+            <div class="panel widget">
+               <div class="row row-table">
+                  <div class="col-md-2 col-sm-3 col-xs-6 text-center bg-info pv-xl">
+                     <em class="wi wi-day-sunny fa-4x"></em>
+                  </div>
+                  <div class="col-md-2 col-sm-3 col-xs-6 pv br">
+                     <div class="h1 m0 text-bold">32&deg;</div>
+                     <div class="text-uppercase">Clear</div>
+                  </div>
+                  <div class="col-md-2 col-sm-3 hidden-xs pv text-center br">
+                     <div class="text-info text-sm">10 AM</div>
+                     <div class="text-muted text-md">
+                        <em class="wi wi-day-cloudy"></em>
+                     </div>
+                     <div class="text-info">
+                        <em class="wi wi-sprinkles"></em>
+                        <span class="text-muted">20%</span>
+                     </div>
+                     <div class="text-muted">27&deg;</div>
+                  </div>
+                  <div class="col-md-2 col-sm-3 hidden-xs pv text-center br">
+                     <div class="text-info text-sm">11 AM</div>
+                     <div class="text-muted text-md">
+                        <em class="wi wi-day-cloudy"></em>
+                     </div>
+                     <div class="text-info">
+                        <em class="wi wi-sprinkles"></em>
+                        <span class="text-muted">30%</span>
+                     </div>
+                     <div class="text-muted">28&deg;</div>
+                  </div>
+                  <div class="col-md-2 hidden-sm hidden-xs pv text-center br">
+                     <div class="text-info text-sm">12 PM</div>
+                     <div class="text-muted text-md">
+                        <em class="wi wi-day-cloudy"></em>
+                     </div>
+                     <div class="text-info">
+                        <em class="wi wi-sprinkles"></em>
+                        <span class="text-muted">20%</span>
+                     </div>
+                     <div class="text-muted">30&deg;</div>
+                  </div>
+                  <div class="col-md-2 hidden-sm hidden-xs pv text-center">
+                     <div class="text-info text-sm">1 PM</div>
+                     <div class="text-muted text-md">
+                        <em class="wi wi-day-sunny-overcast"></em>
+                     </div>
+                     <div class="text-info">
+                        <em class="wi wi-sprinkles"></em>
+                        <span class="text-muted">0%</span>
+                     </div>
+                     <div class="text-muted">30&deg;</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- END dashboard main content-->
+   <!-- START dashboard sidebar-->
+   <aside class="col-lg-3">
+      <!-- START loader widget-->
+      <div class="panel panel-default">
+         <div class="panel-body">
+            <a href="#" class="text-muted pull-right">
+               <em class="fa fa-arrow-right"></em>
+            </a>
+            <div class="text-info">แผนงานที่สำเร็จแล้ว ในวันนี้</div>
+            <div class="text-center pv-xl">
+               <div data-easypiechart data-percent="80" data-animate="{&quot;duration&quot;: &quot;800&quot;, &quot;enabled&quot;: &quot;true&quot;}" data-bar-color="#23b7e5" data-track-Color="rgba(200,200,200,0.4)" data-scale-Color="false" data-line-width="10"
+               data-line-cap="round" data-size="145" class="easypie-chart easypie-chart-lg">
+                  <span>80%</span>
+               </div>
+            </div>
+            <div data-sparkline="" data-bar-color="#23b7e5" data-height="30" data-bar-width="5" data-bar-spacing="2" data-values="5,4,8,7,8,5,4,6,5,5,9,4,6,3,4,7,5,4,7" class="text-center"></div>
+         </div>
+      </div>
+      <!-- END loader widget-->
+
+
+    <div class="panel widget">
+            <div class="row row-table row-flush">
+                
+                <div class="col-xs-5">
+                <picture class="lateral-picture">
+                    <img src="/assets/angle/m1.jpg" alt="">
+                </picture>
+                </div>
+                <div class="col-xs-7 align-middle p-lg">
+                <h4>งานที่ทำเสร็จแล้ว ล่าสุด</h4>
+                <p>
+                    <span class="text-sm">10:30 น.| 20 มีค. 2561</span></p>
+                <p>
+                    <strong class="text-success m0">SQ1-ESL-02/05-BD ส่วนประกอบไฟป้ายบอกทางหนีไฟ</strong>
+                </p>
+                <ul>
+                    <li>ทำความสะอาดสภาพภายนอก</li>
+                    <li>ตรวจเช็คแรงดันไฟฟ้า</li>
+                    <li>ตรวจเช็คสภาพโดยทั่วไป...</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+      
+   </aside>
+   <!-- END dashboard sidebar-->
+</div>

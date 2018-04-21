@@ -1,0 +1,48 @@
+<div class="questionnaire container container-sm mt-lg home">
+  <div data-animate data-play="bounce" data-offset="0"  class="panel">
+    <p>ยินดีต้อนรับคุณ <strong><%= current_user.first_name %></strong> | <%= link_to "ออกจากระบบ", destroy_user_session_path, method: :delete , class: '' %></p>
+
+     <div class="panel-body">
+        <p class="text-lg mv-lg pv-lg ">แบบสอบถาม <br><span><%=@subheader %></span></p>
+        <hr>
+
+        <%= form_for :form_questionnaire , url: new_questionnaire_path do |f| %>
+
+          <% count_quest = 0 %>
+          <% @question.each do |question| %>
+          <% count_quest += 1 %>
+          <% q = "q"+count_quest.to_s %>
+          <%= f.hidden_field "question_id["+q+"]", :value => question.id %>
+          <fieldset>
+              <legend class="text-md panel"><%= question.name %></legend>
+              <div class="form-group">
+                 <label class="col-md-2 hidden-xs hidden-sm control-label"></label>
+                 <div class="col-md-10 col-sm-12">
+                   <% @answer = QuestionAnswer.where('question_answers.question_id' => question.id).joins(:answer) %>
+                   <% @answer.each do |answer| %>
+                   <% if answer.answer.id != 9 %>
+                      <div class="radio c-radio">
+                         <label>
+                           <%= f.radio_button("choice["+q+"]",  answer.id, required: 'required') %>
+                            <span class="fa fa-circle"></span><%= answer.answer.name %></label>
+                      </div>
+                    <% else %>
+                    <div class="">
+                       <label><%= answer.answer.name %></label>
+                      <%= text_area("choice["+q+"]",  answer.id, required: 'required') %>
+                    </div>
+                    <% end %>
+                    <% end %>
+
+                 </div>
+              </div>
+           </fieldset>
+          <% end %>
+          <div class="clearfix"></div>
+          <%= f.submit 'ส่งแบบสอบถาม', class:'btn btn-green btn-block btn-lg mv-lg pv-lg' %>
+        <% end %>
+
+
+     </div>
+  </div>
+</div>

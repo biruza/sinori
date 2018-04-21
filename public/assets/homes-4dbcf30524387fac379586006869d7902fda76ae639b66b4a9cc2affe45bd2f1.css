@@ -1,0 +1,52 @@
+/* line 5, C:/ruby_project/smartquizy/app/assets/stylesheets/homes.scss */
+.text-lg {
+  line-height: 1.1em !important;
+}
+
+/* line 8, C:/ruby_project/smartquizy/app/assets/stylesheets/homes.scss */
+.text-md {
+  font-size: 1.8em !important;
+}
+
+/* line 11, C:/ruby_project/smartquizy/app/assets/stylesheets/homes.scss */
+.text-sm {
+  font-size: 1.2em !important;
+}
+
+/* line 15, C:/ruby_project/smartquizy/app/assets/stylesheets/homes.scss */
+.has-feedback label ~ .form-control-feedback {
+  top: 40px !important;
+}
+
+/* line 19, C:/ruby_project/smartquizy/app/assets/stylesheets/homes.scss */
+.btn-lg {
+  font-size: 1.8em !important;
+}
+
+/* line 23, C:/ruby_project/smartquizy/app/assets/stylesheets/homes.scss */
+label {
+  font-size: 1.2em !important;
+  font-weight: 400 !important;
+}
+
+/* line 29, C:/ruby_project/smartquizy/app/assets/stylesheets/homes.scss */
+.radio {
+  font-size: 16px;
+}
+
+/* line 32, C:/ruby_project/smartquizy/app/assets/stylesheets/homes.scss */
+.radio {
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+
+/* line 36, C:/ruby_project/smartquizy/app/assets/stylesheets/homes.scss */
+.c-radio span {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+/* line 40, C:/ruby_project/smartquizy/app/assets/stylesheets/homes.scss */
+.c-checkbox span:before, .c-radio span:before {
+  line-height: 29px !important;
+}

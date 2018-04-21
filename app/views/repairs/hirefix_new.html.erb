@@ -1,0 +1,256 @@
+<h3>เพิ่มรายการแจ้งซ่อม
+</h3>
+<div class="row">
+   <div class="col-lg-12">
+
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text">เลขที่ใบสั่งงาน</span>
+    </div>
+    <div class="col-sm-9">
+      <input type="text" disabled class="form-control " id="order_number">
+    </div>
+  </div>
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text">เดือน</span>
+    </div>
+    <div class="col-sm-9">
+      <input type="text" value="3" class="form-control" id="order_number" id="month">
+    </div>
+  </div>
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text">ปี</span>
+    </div>
+    <div class="col-sm-9">
+      <input type="text" value="2018" class="form-control" id="order_number" id="yeart">
+    </div>
+  </div>
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text">สถานะการซ่อม</span>
+    </div>
+    <div class="col-sm-9">
+      <input type="text" value="แจ้งซ่อม" class="form-control " id="repair_status">
+    </div>
+  </div>
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text">ความเร่งด่วน</span>
+    </div>
+    <div class="col-sm-9">
+      <div class="dropdown " id="urgency">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text">แผนกเครื่องจักร</span>
+    </div>
+    <div class="col-sm-9">
+      <div class="dropdown " id="machinery_department">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text">วันที่แจ้ง</span>
+    </div>
+    <div class="col-sm-9">
+      <div class="form-group" id="date_of_notification">
+        <div class='input-group date' id='datetimepicker1'>
+          <input type='text' class="form-control" />
+          <span class="input-group-addon">
+            <span class="glyphicon glyphicon-calendar"></span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text">เครื่องจักร</span>
+    </div>
+    <div class="col-sm-9">
+      <input type="text" class="form-control " id="mechanism">
+    </div>
+  </div>
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text">เวลาต้องการใช้เครื่อง</span>
+    </div>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" id="time_to_use_the_machine.">
+    </div>
+  </div>
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text">อุปกรณ์</span>
+    </div>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" id="equipment">
+    </div>
+  </div>
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text">ประมาณการเสร็จ</span>
+    </div>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" id="estimated_completion">
+    </div>
+  </div>
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text">ชื่อผู้แจ้ง</span>
+    </div>
+    <div class="col-sm-9">
+      <input type="text" value="อินโนเวชั่น" class="form-control" id="notification_name">
+    </div>
+  </div>
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text">เบอร์โทรศัพท์</span>
+    </div>
+    <div class="col-sm-9">
+      <input type="text" class="form-control " id="Tel">
+    </div>
+  </div>
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text">อาการเสีย</span>
+    </div>
+    <div class="col-sm-9">
+      <div class="dropdown " id="waste">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text"></span>
+    </div>
+    <div class="col-sm-9">
+        <div class="checkbox ml-3" id="telephone_number">
+        <label>
+            <input type="checkbox" value=""> หยุดเครื่องจักร</label>
+        </div>
+    </div>
+  </div>
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text">อาการเสียเบื้องต้น</span>
+    </div>
+    <div class="col-sm-9">
+      <textarea class="form-control" id="preliminary_damage"></textarea>
+    </div>
+  </div>
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text">หมายเหตุ</span>
+    </div>
+    <div class="col-sm-9">
+      <textarea class="form-control" id="note"></textarea>
+    </div>
+  </div>
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text">รูปเครื่องจักร</span>
+    </div>
+    <div class="col-sm-9">
+      <img src="/assets/angle/m2.jpg" alt="รูปเครื่องจักร" class="img-thumbnail" id="shaping_machine">
+    </div>
+  </div>
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text">ซ่อมนอก</span>
+    </div>
+    <div class="col-sm-9">
+      <div class="checkbox ml-3" id="outside_repair">
+        <label>
+          <input type="checkbox" value=""> Option 1</label>
+      </div>
+    </div>
+  </div>
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text">ภาพที่ 1</span>
+    </div>
+    <div class="col-sm-9">
+      <div class="fileinput fileinput-new" data-provides="fileinput" id="image_1">
+        <span class="btn btn-default btn-file">
+          <span>Choose file </span>
+          <input type="file" />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text">ภาพที่ 2</span>
+    </div>
+    <div class="col-sm-9">
+      <div class="fileinput fileinput-new" data-provides="fileinput" id="image_2">
+        <span class="btn btn-default btn-file">
+          <span>Choose file </span>
+          <input type="file" />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text">ภาพที่ 3</span>
+    </div>
+    <div class="col-sm-9">
+      <div class="fileinput fileinput-new" data-provides="fileinput" id="image_3">
+        <span class="btn btn-default btn-file">
+          <span>Choose file </span>
+          <input type="file" />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="row mb">
+    <div class="col-sm-3">
+      <span class="input-group-text">ภาพที่ 4</span>
+    </div>
+    <div class="col-sm-9">
+      <div class="fileinput fileinput-new" data-provides="fileinput" id="image_4">
+        <span class="btn btn-default btn-file">
+          <span>Choose file </span>
+          <input type="file" />
+        </span>
+      </div>
+    </div>
+  </div>   
+
+
+   </div>
+</div>
