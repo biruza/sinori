@@ -1,9 +1,0 @@
-I"r(function() {
-  var js;
-
-  js = {
-    'js': [resource_string(__name__, 'questions.js')]
-  };
-
-}).call(this);
-:ET
