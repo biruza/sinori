@@ -1,0 +1,14 @@
+<%= debug(params[:form_questionnaire]) %>
+
+
+<% @test = params.permit(form_questionnaire: [{choice: :name}]) %>
+
+
+<% params[:form_questionnaire]["choice"].each do |q| %>
+<ul>
+  <li>user_id : <%= current_user.id %></li>
+  <li>question_id : <%= params[:form_questionnaire][:question_id][q] %></li>
+  <li>answer_id : <%= params[:form_questionnaire][:choice][q]%></li>
+  <li>value : <%= params[:form_questionnaire][:choice][q] %></li>
+</ul>
+<% end %>

@@ -64,3 +64,7 @@ gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'b
 
 
 gem 'rails_12factor', group: :production
+
+group :development do
+  gem 'meta_request'
+end

@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   match 'questionnaire', to: 'homes#questionnaire', via: :get
   match 'new_questionnaire', to: 'homes#new_questionnaire', via: :post
   match 'finish', to: 'homes#finish', via: :get
+  match 'finish2', to: 'homes#finish2', via: :get
 
 
   # defaults to dashboard

@@ -12,9 +12,12 @@ class HomesController < ApplicationController
       session[:count_youdo] = 1
       @subheader = "ก่อนการเยี่ยมชม"
       @question = Question.where(:id => 1..3)
-    else
+    elsif session[:count_youdo] == 1
+      session[:count_youdo] = 2
       @subheader = "หลังการเยี่ยมชม"
       @question = Question.where(:id => 4..8)
+    else
+      redirect_to finish2_path
     end
 
     #@answer = Answer.all
@@ -24,24 +27,34 @@ class HomesController < ApplicationController
 
   def new_questionnaire
 
-    #if self.success == true
-      @start = 0
-      while @start < Question.count
-        @start += 1
-        q = "q"+@start.to_s
-        question_id = params[:form_questionnaire][:question_id][q]
-        answer_id = params[:form_questionnaire][:choice][q]
-        q_item = QItem.new(
-          :user_id => current_user.id,
-          :answer_id => answer_id,
-          :question_id => question_id
-          )
-        q_item.save
-      end
-    #end
 
-    redirect_to finish_path
 
+
+    params[:form_questionnaire]["choice"].each do |q|
+      question_id = params[:form_questionnaire][:question_id][q]
+      answer_id = params[:form_questionnaire][:choice][q]
+      value = params[:form_questionnaire][:choice][q]
+      q_item = QItem.new(
+        :user_id => current_user.id,
+        :answer_id => answer_id,
+        :question_id => question_id,
+        :value => value
+        )
+      q_item.save
+    end
+
+
+    #render 'test_params'
+
+    if session[:count_youdo] == 1
+      redirect_to finish_path
+    else
+      redirect_to finish2_path
+    end
+
+  end
+
+  def test_params
   end
 
   private

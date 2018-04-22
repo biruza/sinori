@@ -1,3 +1,4 @@
+<%= debug(session[:count_youdo]) %>
 <div class="questionnaire container container-sm mt-lg home">
   <div data-animate data-play="bounce" data-offset="0"  class="panel">
     <p>ยินดีต้อนรับคุณ <strong><%= current_user.first_name %></strong> | <%= link_to "ออกจากระบบ", destroy_user_session_path, method: :delete , class: '' %></p>
@@ -23,13 +24,13 @@
                    <% if answer.answer.id != 9 %>
                       <div class="radio c-radio">
                          <label>
-                           <%= f.radio_button("choice["+q+"]",  answer.id, required: 'required') %>
+                           <%= f.radio_button("choice["+q+"]", answer.id , required: 'required' ) %>
                             <span class="fa fa-circle"></span><%= answer.answer.name %></label>
                       </div>
                     <% else %>
                     <div class="">
-                       <label><%= answer.answer.name %></label>
-                      <%= text_area("choice["+q+"]",  answer.id, required: 'required') %>
+                      <label><%= answer.answer.name %></label>
+                      <%= text_area(:form_questionnaire,"choice["+q+"]", answerid: answer.id ) %>
                     </div>
                     <% end %>
                     <% end %>
