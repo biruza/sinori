@@ -11,11 +11,11 @@ class HomesController < ApplicationController
     if !session[:count_youdo]
       session[:count_youdo] = 1
       @subheader = "ก่อนการเยี่ยมชม"
-      @question = Question.where(:id => 1..3)
+      @question = Question.where(:id => 1..3).order(:order)
     elsif session[:count_youdo] == 1
       session[:count_youdo] = 2
       @subheader = "หลังการเยี่ยมชม"
-      @question = Question.where(:id => 4..8)
+      @question = Question.where(:id => 4..8).order(:order)
     else
       session.delete(:count_youdo)
       redirect_to finish2_path
