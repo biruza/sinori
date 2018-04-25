@@ -17,6 +17,7 @@ class HomesController < ApplicationController
       @subheader = "หลังการเยี่ยมชม"
       @question = Question.where(:id => 4..8)
     else
+      session.delete(:count_youdo)
       redirect_to finish2_path
     end
 
@@ -49,6 +50,7 @@ class HomesController < ApplicationController
     if session[:count_youdo] == 1
       redirect_to finish_path
     else
+      session.delete(:count_youdo)
       redirect_to finish2_path
     end
 
