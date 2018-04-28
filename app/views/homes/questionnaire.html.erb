@@ -1,7 +1,7 @@
 
 <div class="questionnaire container container-sm mt-lg home">
   <div data-animate data-play="bounce" data-offset="0"  class="panel">
-    <p>ยินดีต้อนรับคุณ <strong><%= current_user.first_name %></strong> | <%= link_to "ออกจากระบบ", destroy_user_session_path, method: :delete , class: '' %></p>
+    <p>ยินดีต้อนรับคุณ <strong><%= session[:player_name] %></strong> | <%= link_to "ออกจากระบบ", logout_path, method: :delete , class: '' %></p>
 
      <div class="panel-body">
         <p class="text-lg mv-lg pv-lg ">แบบสอบถาม <br><span><%=@subheader %></span></p>

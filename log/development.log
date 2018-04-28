@@ -57349,3 +57349,1632 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-04-28 17:50:05 +0700
+  [1m[35m (8.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (15.0ms)
+Completed 200 OK in 37761ms (Views: 37730.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 17:51:06 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 129ms (Views: 128.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 17:51:06 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 117ms (Views: 115.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-28 17:51:12 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (1.5ms)
+Completed 200 OK in 463ms (Views: 446.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 17:51:14 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 114ms (Views: 113.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 17:51:14 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 112ms (Views: 111.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-28 17:51:27 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (1.0ms)
+Completed 200 OK in 314ms (Views: 303.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 17:51:31 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 109ms (Views: 108.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 17:51:31 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-04-28 17:51:31 +0700
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 160ms (Views: 158.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/pages
+  Rendered devise/shared/_links.html.erb (2.0ms) [cache miss]
+  Rendered devise/registrations/new.html.erb within layouts/pages (157.4ms)
+Completed 200 OK in 668ms (Views: 637.9ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 17:51:32 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 130ms (Views: 128.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 17:51:32 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 115ms (Views: 113.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-04-28 17:51:35 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/pages
+  Rendered devise/shared/_links.html.erb (1.0ms) [cache miss]
+  Rendered devise/sessions/new.html.erb within layouts/pages (22.0ms)
+Completed 200 OK in 442ms (Views: 440.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 17:51:36 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 112ms (Views: 111.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 17:51:36 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 107ms (Views: 105.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-04-28 17:51:41 +0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mBEvXPPa7LwCmycULocI0ZBKpuaUdBjv+xDGTTgdXRV+PphIWYiFJnsz/i5gVsCf3TVsrD1d+eXC7tOqS8u+bg==", "user"=>{"email"=>"monthon@biza.co.th", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"เข้าสู่ระบบ"}
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "monthon@biza.co.th"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (4.0ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["current_sign_in_at", "2018-04-28 10:51:41.707032"], ["last_sign_in_at", "2018-04-21 04:46:25.455684"], ["sign_in_count", 9], ["updated_at", "2018-04-28 10:51:41.709020"], ["id", 2]]
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/questionnaire
+Completed 302 Found in 344ms (ActiveRecord: 12.0ms)
+
+
+Started GET "/questionnaire" for 127.0.0.1 at 2018-04-28 17:51:41 +0700
+Processing by HomesController#questionnaire as HTML
+  Rendering homes/questionnaire.html.erb within layouts/pages
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mQuestion Load (36.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE ("questions"."id" BETWEEN $1 AND $2) ORDER BY "questions"."order" ASC[0m  [["id", 1], ["id", 3]]
+  [1m[36mQuestionAnswer Load (51.1ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnswer Load (1.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 2]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.5ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 3]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered homes/questionnaire.html.erb within layouts/pages (283.3ms)
+Completed 200 OK in 638ms (Views: 502.5ms | ActiveRecord: 100.1ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 17:51:42 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 106ms (Views: 105.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 17:51:42 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 110ms (Views: 108.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/questionnaire" for 127.0.0.1 at 2018-04-28 17:51:45 +0700
+Processing by HomesController#questionnaire as HTML
+  Rendering homes/questionnaire.html.erb within layouts/pages
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mQuestion Load (0.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE ("questions"."id" BETWEEN $1 AND $2) ORDER BY "questions"."order" ASC[0m  [["id", 4], ["id", 8]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 4]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnswer Load (1.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mAnswer Load (1.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 5]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (1.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 6]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 7]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 8]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  Rendered homes/questionnaire.html.erb within layouts/pages (62.0ms)
+Completed 200 OK in 372ms (Views: 356.6ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 17:51:45 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 109ms (Views: 107.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 17:51:46 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 107ms (Views: 106.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/questionnaire" for 127.0.0.1 at 2018-04-28 17:51:48 +0700
+Processing by HomesController#questionnaire as HTML
+Redirected to http://localhost:3000/finish2
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/finish2" for 127.0.0.1 at 2018-04-28 17:51:48 +0700
+Processing by HomesController#finish2 as HTML
+  Rendering homes/finish2.html.erb within layouts/pages
+  Rendered homes/finish2.html.erb within layouts/pages (1.0ms)
+Completed 200 OK in 314ms (Views: 302.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 17:51:49 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 106ms (Views: 105.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 17:51:49 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 107ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes" for 127.0.0.1 at 2018-04-28 17:51:54 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered homes/index.html.erb within layouts/pages (4.0ms)
+Completed 200 OK in 333ms (Views: 321.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 17:51:54 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 108ms (Views: 107.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 17:51:54 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 113ms (Views: 111.7ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3136355997853907115);[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreatePlayers (20180428105822)
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (95.6ms)[0m  [1m[35mCREATE TABLE "players" ("id" bigserial primary key, "name" character varying, "phone" character varying, "occupation" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180428105822"]]
+  [1m[35m (4.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (9.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(3136355997853907115)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/questionnaire" for 127.0.0.1 at 2018-04-28 18:12:04 +0700
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#questionnaire as HTML
+  Rendering homes/questionnaire.html.erb within layouts/pages
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mQuestion Load (1.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE ("questions"."id" BETWEEN $1 AND $2) ORDER BY "questions"."order" ASC[0m  [["id", 1], ["id", 3]]
+  [1m[36mQuestionAnswer Load (1.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnswer Load (1.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 2]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (1.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 3]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered homes/questionnaire.html.erb within layouts/pages (91.1ms)
+Completed 200 OK in 560ms (Views: 522.5ms | ActiveRecord: 17.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:12:05 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 156ms (Views: 143.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:12:05 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 132ms (Views: 131.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes" for 127.0.0.1 at 2018-04-28 18:12:08 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered homes/index.html.erb within layouts/pages (5.0ms)
+Completed 200 OK in 529ms (Views: 515.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:12:09 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 139ms (Views: 137.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:12:09 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 128ms (Views: 126.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes" for 127.0.0.1 at 2018-04-28 18:13:43 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered homes/index.html.erb within layouts/pages (24.0ms)
+Completed 200 OK in 545ms (Views: 522.3ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:13:45 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 206ms (Views: 205.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:13:45 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 138ms (Views: 136.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes" for 127.0.0.1 at 2018-04-28 18:15:43 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (4.6ms)
+Completed 500  in 40ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/ruby_project/smartquizy2/app/views/homes/index.html.erb:11: syntax error, unexpected ';', expecting ':'
+...afe_append='          '.freeze;@output_buffer.append=( link_...
+...                               ^
+C:/ruby_project/smartquizy2/app/views/homes/index.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/homes/index.html.erb:11: syntax error, unexpected ';', expecting ':'
+app/views/homes/index.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/homes/index.html.erb:11: syntax error, unexpected ';', expecting ':'
+app/views/homes/index.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/homes" for 127.0.0.1 at 2018-04-28 18:18:21 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered homes/index.html.erb within layouts/pages (23.0ms)
+Completed 200 OK in 428ms (Views: 405.1ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:18:22 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 195ms (Views: 194.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:18:22 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 136ms (Views: 134.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-04-28 18:18:39 +0700
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://localhost:3000/questionnaire
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/questionnaire" for 127.0.0.1 at 2018-04-28 18:18:39 +0700
+Processing by HomesController#questionnaire as HTML
+  Rendering homes/questionnaire.html.erb within layouts/pages
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mQuestion Load (1.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE ("questions"."id" BETWEEN $1 AND $2) ORDER BY "questions"."order" ASC[0m  [["id", 4], ["id", 8]]
+  [1m[36mQuestionAnswer Load (1.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 4]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mAnswer Load (1.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (1.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 5]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (2.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 6]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (1.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 7]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (1.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 8]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  Rendered homes/questionnaire.html.erb within layouts/pages (125.6ms)
+Completed 200 OK in 657ms (Views: 593.6ms | ActiveRecord: 22.0ms)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2018-04-28 18:18:41 +0700
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 20ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-28 18:18:41 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (1.0ms)
+Completed 200 OK in 549ms (Views: 487.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:18:42 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 129ms (Views: 128.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:18:42 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 210ms (Views: 209.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-28 18:18:46 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (2.0ms)
+Completed 200 OK in 475ms (Views: 461.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:18:47 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 154ms (Views: 153.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:18:47 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 190ms (Views: 188.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-28 18:19:07 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (1.0ms)
+Completed 200 OK in 502ms (Views: 488.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:19:08 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 152ms (Views: 150.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:19:09 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 142ms (Views: 140.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-28 18:19:18 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (2.0ms)
+Completed 200 OK in 533ms (Views: 518.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:19:19 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 226ms (Views: 223.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:19:19 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 162ms (Views: 161.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2018-04-28 18:19:21 +0700
+Processing by HomesController#register as HTML
+  Rendering homes/register.html.erb within layouts/pages
+  Rendered devise/shared/_links.html.erb (335.4ms)
+  Rendered homes/register.html.erb within layouts/pages (356.4ms)
+Completed 500  in 407ms (ActiveRecord: 4.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `resource_name' for #<#<Class:0xefed928>:0xde9c018>
+Did you mean?  resolve_asset):
+    1: <%- if controller_name != 'sessions' %>
+    2:   <%= link_to "เคยลงทะเบียนแล้ว", new_session_path(resource_name) %><br />
+    3: <% end -%>
+    4: 
+    5: <%- if devise_mapping.registerable? && controller_name != 'registrations' %>
+  
+app/views/devise/shared/_links.html.erb:2:in `_app_views_devise_shared__links_html_erb___278804473_114886380'
+app/views/homes/register.html.erb:63:in `_app_views_homes_register_html_erb___263892375_116712348'
+Started GET "/register" for 127.0.0.1 at 2018-04-28 18:21:31 +0700
+Processing by HomesController#register as HTML
+  Rendering homes/register.html.erb within layouts/pages
+  Rendered devise/shared/_links.html.erb (264.0ms)
+  Rendered homes/register.html.erb within layouts/pages (279.0ms)
+Completed 500  in 315ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `resource_name' for #<#<Class:0xefed928>:0xe181b70>
+Did you mean?  resolve_asset):
+    1: <%- if controller_name != 'sessions' %>
+    2:   <%= link_to "เคยลงทะเบียนแล้ว", new_session_path(resource_name) %><br />
+    3: <% end -%>
+    4: 
+    5: <%- if devise_mapping.registerable? && controller_name != 'registrations' %>
+  
+app/views/devise/shared/_links.html.erb:2:in `_app_views_devise_shared__links_html_erb___278804473_118744524'
+app/views/homes/register.html.erb:63:in `_app_views_homes_register_html_erb___263892375_118231428'
+Started GET "/register" for 127.0.0.1 at 2018-04-28 18:22:25 +0700
+Processing by HomesController#register as HTML
+  Rendering homes/register.html.erb within layouts/pages
+  Rendered devise/shared/_links.html.erb (390.1ms)
+  Rendered homes/register.html.erb within layouts/pages (407.0ms)
+Completed 500  in 444ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `resource_name' for #<#<Class:0xefed928>:0xd6f9500>
+Did you mean?  resolve_asset):
+    1: <%- if controller_name != 'sessions' %>
+    2:   <%= link_to "เคยลงทะเบียนแล้ว", new_session_path(resource_name) %><br />
+    3: <% end -%>
+    4: 
+    5: <%- if devise_mapping.registerable? && controller_name != 'registrations' %>
+  
+app/views/devise/shared/_links.html.erb:2:in `_app_views_devise_shared__links_html_erb___278804473_126271140'
+app/views/homes/register.html.erb:63:in `_app_views_homes_register_html_erb___263892375_112709340'
+Started GET "/register" for 127.0.0.1 at 2018-04-28 18:23:01 +0700
+Processing by HomesController#register as HTML
+  Rendering homes/register.html.erb within layouts/pages
+  Rendered devise/shared/_links.html.erb (262.4ms)
+  Rendered homes/register.html.erb within layouts/pages (278.4ms)
+Completed 500  in 330ms (ActiveRecord: 4.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `resource_name' for #<#<Class:0xce47488>:0xce46108>
+Did you mean?  resolve_asset):
+    1: <%- if controller_name != 'sessions' %>
+    2:   <%= link_to "เคยลงทะเบียนแล้ว", new_session_path(resource_name) %><br />
+    3: <% end -%>
+    4: 
+    5: <%- if devise_mapping.registerable? && controller_name != 'registrations' %>
+  
+app/views/devise/shared/_links.html.erb:2:in `_app_views_devise_shared__links_html_erb___278804473_107748012'
+app/views/homes/register.html.erb:63:in `_app_views_homes_register_html_erb___263892375_108150012'
+Started GET "/register" for 127.0.0.1 at 2018-04-28 18:23:42 +0700
+Processing by HomesController#register as HTML
+  Rendering homes/register.html.erb within layouts/pages
+  Rendered devise/shared/_links.html.erb (259.3ms)
+  Rendered homes/register.html.erb within layouts/pages (277.3ms)
+Completed 500  in 326ms (ActiveRecord: 3.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `resource_name' for #<#<Class:0xf34df88>:0xf34cbc0>
+Did you mean?  resolve_asset):
+    1: <%- if controller_name != 'sessions' %>
+    2:   <%= link_to "เคยลงทะเบียนแล้ว", new_session_path(resource_name) %><br />
+    3: <% end -%>
+    4: 
+    5: <%- if devise_mapping.registerable? && controller_name != 'registrations' %>
+  
+app/views/devise/shared/_links.html.erb:2:in `_app_views_devise_shared__links_html_erb___278804473_127773912'
+app/views/homes/register.html.erb:63:in `_app_views_homes_register_html_erb___263892375_127562364'
+Started GET "/register" for 127.0.0.1 at 2018-04-28 18:24:30 +0700
+Processing by HomesController#register as HTML
+  Rendering homes/register.html.erb within layouts/pages
+  Rendered homes/register.html.erb within layouts/pages (2.0ms)
+Completed 200 OK in 508ms (Views: 454.4ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:24:31 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 178ms (Views: 177.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:24:31 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 126ms (Views: 125.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_register" for 127.0.0.1 at 2018-04-28 18:24:39 +0700
+Processing by HomesController#new_register as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"USP5adoasKuTxJSXNg/u7mDcDqJTyP8FNPyyDp1kB5w2pzDoZ6ht6UDxj75yz6FSWUgLarzlAP3U/j+0WoGzJA==", "form_register"=>{"name"=>"", "phone"=>"", "occupation"=>"3"}, "commit"=>"ถัดไป"}
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (5.0ms)[0m  [1m[32mINSERT INTO "players" ("name", "phone", "occupation", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", ""], ["phone", ""], ["occupation", 3], ["created_at", "2018-04-28 11:24:40.049240"], ["updated_at", "2018-04-28 11:24:40.049240"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/questionnaire
+Completed 302 Found in 21ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/questionnaire" for 127.0.0.1 at 2018-04-28 18:24:40 +0700
+Processing by HomesController#questionnaire as HTML
+  Rendering homes/questionnaire.html.erb within layouts/pages
+  Rendered homes/questionnaire.html.erb within layouts/pages (20.0ms)
+Completed 500  in 116ms (ActiveRecord: 2.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `first_name' for nil:NilClass):
+    1: 
+    2: <div class="questionnaire container container-sm mt-lg home">
+    3:   <div data-animate data-play="bounce" data-offset="0"  class="panel">
+    4:     <p>ยินดีต้อนรับคุณ <strong><%= current_user.first_name %></strong> | <%= link_to "ออกจากระบบ", destroy_user_session_path, method: :delete , class: '' %></p>
+    5: 
+    6:      <div class="panel-body">
+    7:         <p class="text-lg mv-lg pv-lg ">แบบสอบถาม <br><span><%=@subheader %></span></p>
+  
+app/views/homes/questionnaire.html.erb:4:in `_app_views_homes_questionnaire_html_erb___223986107_82368480'
+Started GET "/questionnaire" for 127.0.0.1 at 2018-04-28 18:25:30 +0700
+Processing by HomesController#questionnaire as HTML
+  Rendering homes/questionnaire.html.erb within layouts/pages
+  [1m[36mQuestion Load (0.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE ("questions"."id" BETWEEN $1 AND $2) ORDER BY "questions"."order" ASC[0m  [["id", 1], ["id", 3]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 1]]
+  [1m[36mAnswer Load (1.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 2]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.5ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.5ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 3]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered homes/questionnaire.html.erb within layouts/pages (66.6ms)
+Completed 200 OK in 504ms (Views: 480.7ms | ActiveRecord: 10.1ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:25:30 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 184ms (Views: 183.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:25:31 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 133ms (Views: 132.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/questionnaire" for 127.0.0.1 at 2018-04-28 18:30:27 +0700
+Processing by HomesController#questionnaire as HTML
+  Rendering homes/questionnaire.html.erb within layouts/pages
+  [1m[36mQuestion Load (0.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE ("questions"."id" BETWEEN $1 AND $2) ORDER BY "questions"."order" ASC[0m  [["id", 4], ["id", 8]]
+  [1m[36mQuestionAnswer Load (0.5ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 4]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mAnswer Load (1.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mAnswer Load (1.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 5]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 6]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 7]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 8]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  Rendered homes/questionnaire.html.erb within layouts/pages (82.1ms)
+Completed 200 OK in 504ms (Views: 471.1ms | ActiveRecord: 13.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:30:28 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 186ms (Views: 185.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:30:28 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 117ms (Views: 115.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:30:33 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 111ms (Views: 110.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-28 18:30:35 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (1.0ms)
+Completed 200 OK in 454ms (Views: 440.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:30:36 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 133ms (Views: 132.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:30:36 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.5ms)
+Completed 200 OK in 192ms (Views: 190.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2018-04-28 18:30:38 +0700
+Processing by HomesController#register as HTML
+  Rendering homes/register.html.erb within layouts/pages
+  Rendered homes/register.html.erb within layouts/pages (2.5ms)
+Completed 200 OK in 459ms (Views: 432.7ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:30:39 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 135ms (Views: 134.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:30:39 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 169ms (Views: 168.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_register" for 127.0.0.1 at 2018-04-28 18:30:54 +0700
+Processing by HomesController#new_register as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6x1gaH2Voh2wfXIfe9La1NLhyg1KRAd+P8OJvi1fh6+MmanpwCd/X2NIaTY/EpVo63XPxaVp+IbfwQQE6rozFw==", "form_register"=>{"name"=>"2222", "phone"=>"02", "occupation"=>"1"}, "commit"=>"ถัดไป"}
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "players" ("name", "phone", "occupation", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "2222"], ["phone", "02"], ["occupation", 1], ["created_at", "2018-04-28 11:30:54.478533"], ["updated_at", "2018-04-28 11:30:54.478533"]]
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/questionnaire
+Completed 302 Found in 17ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/questionnaire" for 127.0.0.1 at 2018-04-28 18:30:54 +0700
+Processing by HomesController#questionnaire as HTML
+Redirected to http://localhost:3000/finish2
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/finish2" for 127.0.0.1 at 2018-04-28 18:30:54 +0700
+Processing by HomesController#finish2 as HTML
+  Rendering homes/finish2.html.erb within layouts/pages
+  Rendered homes/finish2.html.erb within layouts/pages (0.0ms)
+Completed 200 OK in 441ms (Views: 428.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:30:55 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 135ms (Views: 135.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:30:55 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 130ms (Views: 129.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_register" for 127.0.0.1 at 2018-04-28 18:32:05 +0700
+Processing by HomesController#new_register as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6x1gaH2Voh2wfXIfe9La1NLhyg1KRAd+P8OJvi1fh6+MmanpwCd/X2NIaTY/EpVo63XPxaVp+IbfwQQE6rozFw==", "form_register"=>{"name"=>"2222", "phone"=>"02", "occupation"=>"1"}, "commit"=>"ถัดไป"}
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "players" ("name", "phone", "occupation", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "2222"], ["phone", "02"], ["occupation", 1], ["created_at", "2018-04-28 11:32:05.569028"], ["updated_at", "2018-04-28 11:32:05.569028"]]
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/questionnaire
+Completed 302 Found in 14ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/questionnaire" for 127.0.0.1 at 2018-04-28 18:32:05 +0700
+Processing by HomesController#questionnaire as HTML
+  Rendering homes/questionnaire.html.erb within layouts/pages
+  [1m[36mQuestion Load (0.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE ("questions"."id" BETWEEN $1 AND $2) ORDER BY "questions"."order" ASC[0m  [["id", 1], ["id", 3]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (1.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 2]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (1.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 3]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered homes/questionnaire.html.erb within layouts/pages (38.0ms)
+Completed 200 OK in 516ms (Views: 475.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:32:06 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 130ms (Views: 128.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:32:06 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 182ms (Views: 181.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_questionnaire" for 127.0.0.1 at 2018-04-28 18:32:17 +0700
+Processing by HomesController#new_questionnaire as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N5rJSqItw76fPMcyg8OXHvXeqe5rHZp49Wi0DRsO7gOZaPy3WYYvA04gdndChAdAlWRpqbAkr3YN8ZmoQ0ptYw==", "form_questionnaire"=>{"question_id"=>{"q1"=>"1", "q2"=>"2", "q3"=>"3"}, "choice"=>{"q1"=>"2", "q2"=>"8", "q3"=>"12"}}, "commit"=>"ส่งแบบสอบถาม"}
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (27.5ms)[0m  [1m[32mINSERT INTO "q_items" ("created_at", "updated_at", "user_id", "question_id", "answer_id", "value") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2018-04-28 11:32:17.989778"], ["updated_at", "2018-04-28 11:32:17.989778"], ["user_id", 3], ["question_id", 1], ["answer_id", 2], ["value", "2"]]
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "q_items" ("created_at", "updated_at", "user_id", "question_id", "answer_id", "value") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2018-04-28 11:32:18.024808"], ["updated_at", "2018-04-28 11:32:18.024808"], ["user_id", 3], ["question_id", 2], ["answer_id", 8], ["value", "8"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "q_items" ("created_at", "updated_at", "user_id", "question_id", "answer_id", "value") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2018-04-28 11:32:18.030810"], ["updated_at", "2018-04-28 11:32:18.030810"], ["user_id", 3], ["question_id", 3], ["answer_id", 12], ["value", "12"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/finish
+Completed 302 Found in 63ms (ActiveRecord: 33.0ms)
+
+
+Started GET "/finish" for 127.0.0.1 at 2018-04-28 18:32:18 +0700
+Processing by HomesController#finish as HTML
+  Rendering homes/finish.html.erb within layouts/pages
+  Rendered homes/finish.html.erb within layouts/pages (1.0ms)
+Completed 200 OK in 467ms (Views: 453.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:32:19 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 152ms (Views: 152.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:32:19 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 189ms (Views: 188.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes" for 127.0.0.1 at 2018-04-28 18:32:22 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (1.5ms)
+Completed 200 OK in 445ms (Views: 430.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:32:23 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 163ms (Views: 161.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:32:23 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 230ms (Views: 228.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes" for 127.0.0.1 at 2018-04-28 18:33:57 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (1.0ms)
+Completed 500  in 42ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/ruby_project/smartquizy2/app/views/homes/index.html.erb:11: syntax error, unexpected ';', expecting ':'
+...afe_append='          '.freeze;@output_buffer.append=( link_...
+...                               ^
+C:/ruby_project/smartquizy2/app/views/homes/index.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/homes/index.html.erb:11: syntax error, unexpected ';', expecting ':'
+app/views/homes/index.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/homes/index.html.erb:11: syntax error, unexpected ';', expecting ':'
+app/views/homes/index.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/homes" for 127.0.0.1 at 2018-04-28 18:35:08 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (1.0ms)
+Completed 500  in 37ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/ruby_project/smartquizy2/app/views/homes/index.html.erb:12: syntax error, unexpected ';', expecting ':'
+...afe_append='          '.freeze;@output_buffer.append=( link_...
+...                               ^
+C:/ruby_project/smartquizy2/app/views/homes/index.html.erb:21: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/homes/index.html.erb:12: syntax error, unexpected ';', expecting ':'
+app/views/homes/index.html.erb:21: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/homes/index.html.erb:12: syntax error, unexpected ';', expecting ':'
+app/views/homes/index.html.erb:21: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/homes" for 127.0.0.1 at 2018-04-28 18:35:16 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (1.0ms)
+Completed 500  in 35ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/ruby_project/smartquizy2/app/views/homes/index.html.erb:12: syntax error, unexpected ';', expecting ':'
+...afe_append='          '.freeze;@output_buffer.append=( link_...
+...                               ^
+C:/ruby_project/smartquizy2/app/views/homes/index.html.erb:21: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/homes/index.html.erb:12: syntax error, unexpected ';', expecting ':'
+app/views/homes/index.html.erb:21: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/homes/index.html.erb:12: syntax error, unexpected ';', expecting ':'
+app/views/homes/index.html.erb:21: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/homes" for 127.0.0.1 at 2018-04-28 18:35:24 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (6.0ms)
+Completed 200 OK in 473ms (Views: 459.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:35:25 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 157ms (Views: 155.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:35:26 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 160ms (Views: 158.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/questionnaire" for 127.0.0.1 at 2018-04-28 18:35:39 +0700
+Processing by HomesController#questionnaire as HTML
+  Rendering homes/questionnaire.html.erb within layouts/pages
+  [1m[36mQuestion Load (1.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE ("questions"."id" BETWEEN $1 AND $2) ORDER BY "questions"."order" ASC[0m  [["id", 4], ["id", 8]]
+  [1m[36mQuestionAnswer Load (0.5ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 4]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (1.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 5]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (1.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 6]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (1.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 7]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mAnswer Load (1.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (1.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 8]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  Rendered homes/questionnaire.html.erb within layouts/pages (117.1ms)
+Completed 200 OK in 605ms (Views: 566.1ms | ActiveRecord: 19.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:35:40 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 223ms (Views: 222.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:35:40 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 135ms (Views: 133.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_questionnaire" for 127.0.0.1 at 2018-04-28 18:35:51 +0700
+Processing by HomesController#new_questionnaire as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ISx0XjSWJCQ/l7PLfkDfSy+eI/0bP7rF4V/M+oLRw+WP3kGjzz3Ime6LAo6/B08VTyTjusAGj8sZxuFf2pVAhQ==", "form_questionnaire"=>{"question_id"=>{"q1"=>"4", "q2"=>"5", "q3"=>"6", "q4"=>"7", "q5"=>"8"}, "choice"=>{"q1"=>"16", "q2"=>"20", "q3"=>"24", "q4"=>"28", "q5"=>"xxx"}}, "commit"=>"ส่งแบบสอบถาม"}
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "q_items" ("created_at", "updated_at", "user_id", "question_id", "answer_id", "value") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2018-04-28 11:35:51.420882"], ["updated_at", "2018-04-28 11:35:51.420882"], ["user_id", 3], ["question_id", 4], ["answer_id", 16], ["value", "16"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "q_items" ("created_at", "updated_at", "user_id", "question_id", "answer_id", "value") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2018-04-28 11:35:51.429888"], ["updated_at", "2018-04-28 11:35:51.429888"], ["user_id", 3], ["question_id", 5], ["answer_id", 20], ["value", "20"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "q_items" ("created_at", "updated_at", "user_id", "question_id", "answer_id", "value") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2018-04-28 11:35:51.436893"], ["updated_at", "2018-04-28 11:35:51.436893"], ["user_id", 3], ["question_id", 6], ["answer_id", 24], ["value", "24"]]
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "q_items" ("created_at", "updated_at", "user_id", "question_id", "answer_id", "value") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2018-04-28 11:35:51.443899"], ["updated_at", "2018-04-28 11:35:51.443899"], ["user_id", 3], ["question_id", 7], ["answer_id", 28], ["value", "28"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "q_items" ("created_at", "updated_at", "user_id", "question_id", "answer_id", "value") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2018-04-28 11:35:51.450406"], ["updated_at", "2018-04-28 11:35:51.450406"], ["user_id", 3], ["question_id", 8], ["answer_id", 0], ["value", "xxx"]]
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/finish2
+Completed 302 Found in 54ms (ActiveRecord: 8.5ms)
+
+
+Started GET "/finish2" for 127.0.0.1 at 2018-04-28 18:35:51 +0700
+Processing by HomesController#finish2 as HTML
+  Rendering homes/finish2.html.erb within layouts/pages
+  Rendered homes/finish2.html.erb within layouts/pages (1.0ms)
+Completed 200 OK in 497ms (Views: 482.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:35:52 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 151ms (Views: 149.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:35:52 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 186ms (Views: 185.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes" for 127.0.0.1 at 2018-04-28 18:35:55 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (1.0ms)
+Completed 200 OK in 468ms (Views: 453.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:35:56 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 161ms (Views: 158.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:35:56 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 210ms (Views: 209.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/questionnaire" for 127.0.0.1 at 2018-04-28 18:35:59 +0700
+Processing by HomesController#questionnaire as HTML
+  Rendering homes/questionnaire.html.erb within layouts/pages
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE ("questions"."id" BETWEEN $1 AND $2) ORDER BY "questions"."order" ASC[0m  [["id", 1], ["id", 3]]
+  [1m[36mQuestionAnswer Load (1.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 2]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 3]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered homes/questionnaire.html.erb within layouts/pages (57.5ms)
+Completed 200 OK in 587ms (Views: 568.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:35:59 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 161ms (Views: 160.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:36:00 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 193ms (Views: 191.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2018-04-28 18:36:02 +0700
+Processing by HomesController#logout as HTML
+Redirected to http://localhost:3000/homes
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/homes" for 127.0.0.1 at 2018-04-28 18:36:02 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (1.5ms)
+Completed 200 OK in 577ms (Views: 559.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:36:03 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 230ms (Views: 228.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:36:04 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 170ms (Views: 167.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2018-04-28 18:36:07 +0700
+Processing by HomesController#register as HTML
+  Rendering homes/register.html.erb within layouts/pages
+  Rendered homes/register.html.erb within layouts/pages (2.0ms)
+Completed 200 OK in 543ms (Views: 517.3ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:36:08 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 150ms (Views: 149.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:36:08 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 222ms (Views: 221.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_register" for 127.0.0.1 at 2018-04-28 18:36:51 +0700
+Processing by HomesController#new_register as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"66+dce850R2JDHpJuU7jZggWYGvYBXOLSEICRcd+rEqMK1TwUosMX1o5YWD9jqzaMYJlozcojHOoQI//AJsY8g==", "form_register"=>{"name"=>"33333", "phone"=>"02123456", "occupation"=>"4"}, "commit"=>"ถัดไป"}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "players" ("name", "phone", "occupation", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "33333"], ["phone", "02123456"], ["occupation", 4], ["created_at", "2018-04-28 11:36:51.053628"], ["updated_at", "2018-04-28 11:36:51.053628"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/questionnaire
+Completed 302 Found in 14ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/questionnaire" for 127.0.0.1 at 2018-04-28 18:36:51 +0700
+Processing by HomesController#questionnaire as HTML
+  Rendering homes/questionnaire.html.erb within layouts/pages
+  [1m[36mQuestion Load (1.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE ("questions"."id" BETWEEN $1 AND $2) ORDER BY "questions"."order" ASC[0m  [["id", 1], ["id", 3]]
+  [1m[36mQuestionAnswer Load (1.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 1]]
+  [1m[36mAnswer Load (1.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.5ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.5ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (1.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 2]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 3]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered homes/questionnaire.html.erb within layouts/pages (63.6ms)
+Completed 200 OK in 644ms (Views: 625.8ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:36:52 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 152ms (Views: 150.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:36:52 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.2ms)
+Completed 200 OK in 209ms (Views: 208.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2018-04-28 18:36:54 +0700
+Processing by HomesController#logout as HTML
+Redirected to http://localhost:3000/homes
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/homes" for 127.0.0.1 at 2018-04-28 18:36:54 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (2.0ms)
+Completed 200 OK in 600ms (Views: 585.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:36:55 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 176ms (Views: 174.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:36:55 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 187ms (Views: 186.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2018-04-28 18:36:57 +0700
+Processing by HomesController#register as HTML
+  Rendering homes/register.html.erb within layouts/pages
+  Rendered homes/register.html.erb within layouts/pages (3.0ms)
+Completed 200 OK in 583ms (Views: 566.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:36:58 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 155ms (Views: 152.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:36:58 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 208ms (Views: 207.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_register" for 127.0.0.1 at 2018-04-28 18:37:00 +0700
+Processing by HomesController#new_register as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C1txizYnWYko0B/kNGYcylTMQBKUXbwC3no8wITj7fZs37gKi5WEy/vlBM1wplN2bVhF2ntwQ/o+eLF6QwZZTg==", "form_register"=>{"name"=>"", "phone"=>"", "occupation"=>"5"}, "commit"=>"ถัดไป"}
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "players" ("name", "phone", "occupation", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", ""], ["phone", ""], ["occupation", 5], ["created_at", "2018-04-28 11:37:00.310439"], ["updated_at", "2018-04-28 11:37:00.310439"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/questionnaire
+Completed 302 Found in 16ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/questionnaire" for 127.0.0.1 at 2018-04-28 18:37:00 +0700
+Processing by HomesController#questionnaire as HTML
+  Rendering homes/questionnaire.html.erb within layouts/pages
+  [1m[36mQuestion Load (1.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE ("questions"."id" BETWEEN $1 AND $2) ORDER BY "questions"."order" ASC[0m  [["id", 1], ["id", 3]]
+  [1m[36mQuestionAnswer Load (1.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mAnswer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mAnswer Load (1.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (0.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 2]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mQuestionAnswer Load (1.0ms)[0m  [1m[34mSELECT "question_answers".* FROM "question_answers" INNER JOIN "answers" ON "answers"."id" = "question_answers"."answer_id" WHERE "question_answers"."question_id" = $1[0m  [["question_id", 3]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Answer Load (0.0ms)[0m  [1m[34mSELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered homes/questionnaire.html.erb within layouts/pages (48.0ms)
+Completed 200 OK in 634ms (Views: 572.2ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:37:01 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 215ms (Views: 213.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:37:01 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 142ms (Views: 140.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_questionnaire" for 127.0.0.1 at 2018-04-28 18:37:06 +0700
+Processing by HomesController#new_questionnaire as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7bjPf6fvYlny5Miw5povA0z2rWq95QrpOnG/XQ/d+IhDSvqCXESO5CP4efUn3b9dLExtLWbcP+fC6JL4V5l76A==", "form_questionnaire"=>{"question_id"=>{"q1"=>"1", "q2"=>"2", "q3"=>"3"}, "choice"=>{"q1"=>"3", "q2"=>"8", "q3"=>"12"}}, "commit"=>"ส่งแบบสอบถาม"}
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "q_items" ("created_at", "updated_at", "user_id", "question_id", "answer_id", "value") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2018-04-28 11:37:06.053034"], ["updated_at", "2018-04-28 11:37:06.053034"], ["user_id", 5], ["question_id", 1], ["answer_id", 3], ["value", "3"]]
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "q_items" ("created_at", "updated_at", "user_id", "question_id", "answer_id", "value") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2018-04-28 11:37:06.059039"], ["updated_at", "2018-04-28 11:37:06.059039"], ["user_id", 5], ["question_id", 2], ["answer_id", 8], ["value", "8"]]
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "q_items" ("created_at", "updated_at", "user_id", "question_id", "answer_id", "value") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2018-04-28 11:37:06.070047"], ["updated_at", "2018-04-28 11:37:06.070047"], ["user_id", 5], ["question_id", 3], ["answer_id", 12], ["value", "12"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/finish
+Completed 302 Found in 26ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/finish" for 127.0.0.1 at 2018-04-28 18:37:06 +0700
+Processing by HomesController#finish as HTML
+  Rendering homes/finish.html.erb within layouts/pages
+  Rendered homes/finish.html.erb within layouts/pages (1.0ms)
+Completed 200 OK in 532ms (Views: 518.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:37:07 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 163ms (Views: 160.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:37:07 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 230ms (Views: 227.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes" for 127.0.0.1 at 2018-04-28 18:37:18 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (2.0ms)
+Completed 200 OK in 491ms (Views: 475.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:37:19 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 165ms (Views: 163.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:37:19 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 201ms (Views: 200.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes" for 127.0.0.1 at 2018-04-28 18:37:36 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (1.0ms)
+Completed 200 OK in 554ms (Views: 537.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:37:38 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 168ms (Views: 166.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:37:38 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 241ms (Views: 240.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2018-04-28 18:37:41 +0700
+Processing by HomesController#logout as HTML
+Redirected to http://localhost:3000/homes
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/homes" for 127.0.0.1 at 2018-04-28 18:37:41 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (1.0ms)
+Completed 200 OK in 646ms (Views: 567.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:37:42 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 255ms (Views: 253.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:37:43 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 176ms (Views: 174.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2018-04-28 18:37:46 +0700
+Processing by HomesController#logout as HTML
+Redirected to http://localhost:3000/homes
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/homes" for 127.0.0.1 at 2018-04-28 18:37:46 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (1.0ms)
+Completed 200 OK in 658ms (Views: 579.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:37:47 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 231ms (Views: 228.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:37:47 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 166ms (Views: 163.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes" for 127.0.0.1 at 2018-04-28 18:37:55 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (1.0ms)
+Completed 200 OK in 573ms (Views: 556.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:37:56 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 259ms (Views: 257.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:37:56 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 183ms (Views: 181.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes" for 127.0.0.1 at 2018-04-28 18:38:14 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (1.0ms)
+Completed 500  in 46ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/ruby_project/smartquizy2/app/views/homes/index.html.erb:23: syntax error, unexpected keyword_ensure, expecting keyword_end
+C:/ruby_project/smartquizy2/app/views/homes/index.html.erb:25: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/homes/index.html.erb:23: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/homes/index.html.erb:25: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/homes/index.html.erb:23: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/homes/index.html.erb:25: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/homes" for 127.0.0.1 at 2018-04-28 18:38:29 +0700
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/pages
+  Rendered homes/index.html.erb within layouts/pages (1.0ms)
+Completed 200 OK in 560ms (Views: 542.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:38:30 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 260ms (Views: 258.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2018-04-28 18:38:30 +0700
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 177ms (Views: 176.5ms | ActiveRecord: 0.0ms)
+
+

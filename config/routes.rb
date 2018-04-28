@@ -8,6 +8,9 @@ Rails.application.routes.draw do
 
   match 'questionnaire', to: 'homes#questionnaire', via: :get
   match 'new_questionnaire', to: 'homes#new_questionnaire', via: :post
+  match 'register', to: 'homes#register', via: :get
+  match 'new_register', to: 'homes#new_register', via: :post
+  match 'logout', to: 'homes#logout', via: :get
   match 'finish', to: 'homes#finish', via: :get
   match 'finish2', to: 'homes#finish2', via: :get
 

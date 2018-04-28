@@ -2,8 +2,32 @@ class HomesController < ApplicationController
   layout 'pages'
 
   def index
+    @signed_in = session[:player_id]
   end
 
+
+  def register
+    @player = Player.new
+  end
+
+  def new_register
+    @player = Player.create(register_params)
+    session[:player_name] = params[:form_register][:name]
+    if @player.save
+        session[:player_id] = @player.id
+        redirect_to questionnaire_path
+    else
+        render 'register'
+    end
+
+  end
+
+  def logout
+    session.delete(:count_youdo)
+    session.delete(:player_name)
+    session.delete(:player_id)
+    redirect_to homes_path
+  end
 
   def questionnaire
 
@@ -36,7 +60,7 @@ class HomesController < ApplicationController
       answer_id = params[:form_questionnaire][:choice][q]
       value = params[:form_questionnaire][:choice][q]
       q_item = QItem.new(
-        :user_id => current_user.id,
+        :user_id => session[:player_id],
         :answer_id => answer_id,
         :question_id => question_id,
         :value => value
@@ -60,8 +84,8 @@ class HomesController < ApplicationController
   end
 
   private
-      def q_item_params
-          params.require(:form_questionnaire).permit(:value[:id, :options_attributes[:id]])
+      def register_params
+          params.require(:form_register).permit(:name,:phone,:occupation)
       end
 
 end

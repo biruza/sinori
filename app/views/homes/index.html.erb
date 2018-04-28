@@ -1,3 +1,6 @@
+<% if @signed_in %>
+  <p>ยินดีต้อนรับคุณ <strong><%= session[:player_name] %></strong> | <%= link_to "ออกจากระบบ", logout_path, method: :delete , class: '' %></p>
+<% end %>
 <div class="container container-sm mt-lg bg-blue1 home">
   <div class="panel text-center">
 
@@ -7,10 +10,10 @@
       </div>
         <p><img src="/assets/ani2.gif" class="img-responsive"></p>
         <p class="text-md ">เพียงกรอกแบบสอบถามของเราและลงชื่อไว้ ลุ้นรับของรางวัลเก๋ ๆ ได้ทุกเดือน คลิก "เริ่มทำแบบสอบถาม" เลย</p>
-        <% if user_signed_in? %>
+        <% if @signed_in %>
           <%= link_to 'เริ่มทำแบบสอบถาม <i class="icon-arrow-right-circle"></i>'.html_safe ,questionnaire_path,class:'btn btn-green btn-block btn-lg mv-lg pv-lg' %>
         <% else %>
-          <%= link_to 'เริ่มทำแบบสอบถาม <i class="icon-arrow-right-circle"></i>'.html_safe ,new_user_registration_path,class:'btn btn-green btn-block btn-lg mv-lg pv-lg' %>
+          <%= link_to 'เริ่มทำแบบสอบถาม <i class="icon-arrow-right-circle"></i>'.html_safe ,register_path,class:'btn btn-green btn-block btn-lg mv-lg pv-lg' %>
         <% end %>
      </div>
   </div>
